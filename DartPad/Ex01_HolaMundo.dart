@@ -1,4 +1,4 @@
-void main()
+void main()https://bit.ly/10A-dmi-pracicas
 {
   //Declarando una variable generica para almacenar mi nombre
   var myName = "Marco A.";
