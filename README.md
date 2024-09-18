@@ -13,6 +13,7 @@ Proyecto de Clase para la Unidad 1 de la Asignatura de Desarrollo Móvil Integra
 |3|Hola Mundo desde DART|10|Finalizada|
 |4|Tipos de Datos en DART|5|Activa|
 |5|Tipo de Dato Dinámico|5|Activa|
+|6|Mapas|6|Activa|
 
 
 ### LISTA DE HERRAMIENTAS
