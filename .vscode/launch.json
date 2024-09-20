@@ -1,0 +1,24 @@
+void main() {
+  
+    // Listas (LIST)
+    
+    //La declaración de una LIST esta limitada por Corchetes (BRACKETS), y cada elemento de ser individual y puede repetirse.
+    final numeros = [1,2,2,2,3,4,5,6,7,7,7,7,8,8,9,10];
+    
+    print("Ejemplo de LIST: $numeros");
+    print("Podemo acceder a cierta información de una lista tal como: ");
+    print("El tamaño: ${numeros.length}");
+    print("""
+    Para acceder a los elementos debemos especificar la posición entre []
+    El primer elemento en la primera posición es : ${numeros[0]}
+    El elemento en la segunda posición es : ${numeros[1]}, siempre respetando el posición-1
+    El último elemento de la lista sería: ${numeros[numeros.length]}
+     """);
+    
+    
+    // Iterables (ITERABLES)
+    
+    
+    // Conjunto de Datos (SET)
+    
+  }
