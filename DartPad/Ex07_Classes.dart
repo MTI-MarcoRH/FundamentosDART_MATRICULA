@@ -1,4 +1,4 @@
-+void main() {
+void main() {
   // Clase con parámetros posicionales los parámetros deben respetar su orden para ser asignados en la propoiedad
   final wolverine = Hero('Logan', 'Regeneración');
   // Clase con parámetros no posicionales, los puedo mandar en desorden
@@ -35,6 +35,7 @@ class Team {
   String type;
 
   Team({required this.name, this.type = "No definido"});
+
 
   @override
   String toString() {
