@@ -37,6 +37,7 @@ class Person {
   String? secondLastname;
   String gender;
   String bloodGroup;
+  String? photoURL;
   String? curp;
   DateTime birthdate;
   bool isActive;
@@ -51,6 +52,7 @@ class Person {
       this.secondLastname,
       required this.gender,
       required this.bloodGroup,
+      this.photoURL,
       this.curp,
       required this.birthdate,
       this.isActive = true,
@@ -86,6 +88,7 @@ class Person {
    Género: $gender
    Grupo Sanguíneo: $bloodGroup
    Fecha de Nacimiento: $formatedBirthDate
+   Foto: $fotoURL
    CURP:  $curp
    Estatus: $status
    Fecha de Registro: $formatedCreatedDate
