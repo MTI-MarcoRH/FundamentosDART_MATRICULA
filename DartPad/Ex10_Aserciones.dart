@@ -6,6 +6,12 @@ void main() {
   mySquare.side = -5;
   print("""El lado del cuadrado es de : ${mySquare._side}
   su área es de: ${ mySquare.area }""");
+  final mySquare2 = Square( side: -7 );
+  print("""El lado del cuadrado es de : ${mySquare2._side}
+  su área es de: ${ mySquare2.area }""");
+  
+
+
 }
 
 class Square {
