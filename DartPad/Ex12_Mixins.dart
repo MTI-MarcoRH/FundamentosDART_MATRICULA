@@ -5,7 +5,10 @@ abstract class Ave extends Animal {}
 abstract class Pez extends Animal {}
 
 mixin Volador {
-  void volar() => print('estoy volando!');
+  void volar() => print('Estoy volando!');
+  void planear(int distanciaMaxima)  => print('Este animal puede planear hasta: ${distanciaMaxima}');
+  void ascender(double alturaMaxima)=> print('Este animal puede ascender hasta una altura de ${alturaMaxima} mts. sobre el nivel del mar.');
+  void descender(String velocidadMaxima)=> print('Este animal puede descendera una velocidad de hasta: ${velocidadMaxima}');
 }
 
 mixin Caminante {
@@ -42,9 +45,20 @@ void main() {
 
   print("------------------------------------------------------------");
   print("Instanciando la clase de Pato, y accediendo a sus funciones.");
-  final donald = Pato();
-  donald.caminar();
-  donald.volar();
-  donald.nadar();
+  final pekines = Pato();
+  pekines.volar();
+  
+  pekines.planear(100);
+  pekines.ascender(30);
+  pekines.descender("5 km/h");
+  pekines.caminar();
+  pekines.nadar();
 
+   //CASO ANIMAL 1
+
+
+   //CASO ANIMAL 2
+
+
+  
 }
